@@ -20,3 +20,5 @@ watchdog==0.8.3
 [Firefox WebDriver](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette/WebDriver) or [Chrome WebDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 Tested with [Chrome WebDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+
+![Preview](https://raw.githubusercontent.com/makslevental/maxs_markdown_marshaler/master/preview.gif)
