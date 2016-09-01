@@ -1,0 +1,6 @@
+argh==0.26.2
+Markdown==2.6.6
+pathtools==0.1.2
+PyYAML==3.12
+selenium==2.53.6
+watchdog==0.8.3
