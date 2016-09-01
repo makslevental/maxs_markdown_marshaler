@@ -35,9 +35,9 @@ class GUI:
         self.start_button = Button(self.app, text='Start', command=self.start, font=self.font)
         self.start_button.grid(row=3,column=0, columnspan=4)
         
-        self.html_start = '<!doctype HTML><html><head><script type="text/javascript" src="http://livejs.com/live.js"></script><meta charset="utf-8"><title>Made with Remarkable!</title>'
+        self.html_start = '<!doctype HTML><html><head><meta charset="utf-8"><title>Made with Max\'s Markdown Marshaler!</title>'
         self.html_middle2 = "</head><body id='MathPreviewF'>"
-        self.html_end = '<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/javascript">MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});</script></body></html>'
+        self.html_end = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/javascript">MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});</script></body></html>'
     
     def pick_file(self):
         self.markdown_file_path = askopenfilename()
