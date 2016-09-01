@@ -1,7 +1,7 @@
 # maxs_markdown_marshaler
 Bare bones Markdown compiler
 
-Simple markdown compiler that live-previews markdown in either Firefox or Chrome. 
+Simple markdown compiler, for py3, that live-previews markdown in either Firefox or Chrome. 
 
 Requires (requirements.txt included):
 
